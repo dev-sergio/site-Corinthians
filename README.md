@@ -1,7 +1,7 @@
 # Site desenvolvido para fins educativos
 
 Juntando uma paixão com a outra. Projeto totalmente feito com HTML, CSS e JS.
-também utilizado modulos node como o babel, eslint e webpack.
+também utilizado libs node como o babel, eslint e webpack.
 
 =========================
 
