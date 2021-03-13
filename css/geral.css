@@ -287,19 +287,7 @@ body {
   }
 
   to {
-    max-height: 500px;
+    max-height: 1000px;
     opacity: 1;
-  }
-}
-
-@keyframes slideUp {
-  from {
-    max-height: 500px;
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    max-height: 0;
   }
 }
