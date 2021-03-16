@@ -1,0 +1,18 @@
+[
+  {
+    "nome": "Libertadores",
+    "quantidade": 2
+  },
+  {
+    "nome": "Campeonato Brasileiro",
+    "quantidade": 2
+  },
+  {
+    "nome": "Copa do Brasil",
+    "quantidade": 1
+  },
+  {
+    "nome": "Campeonato Paulista",
+    "quantidade": 2
+  }
+]
