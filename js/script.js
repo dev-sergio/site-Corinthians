@@ -3,6 +3,7 @@ import MenuMobile from './modules/menu-mobile.js';
 import ScrollSuave from './modules/scroll-suave.js';
 import ScrollAnima from './modules/scroll-anima.js';
 import TabNav from './modules/tabnav.js';
+import fetchTitulos from './modules/fetchTitulos.js';
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"], a[href^="#"]');
 scrollSuave.init();
@@ -21,3 +22,6 @@ tabNav.init();
 
 const accordion = new Accordion('[data-anime="accordion"] dt');
 accordion.init();
+
+fetchTitulos('../../titulosMasculinoApi.json', '.numeros-mas');
+fetchTitulos('../../titulosFemininoApi.json', '.numeros-fem');

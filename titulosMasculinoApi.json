@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "MUNDIAIS",
+    "quantidade": 2
+  },
+  {
+    "nome": "Libertadores",
+    "quantidade": 1
+  },
+  {
+    "nome": "Recopa Sul-Americana",
+    "quantidade": 1
+  },
+  {
+    "nome": "Campeonato Brasileiro",
+    "quantidade": 7
+  },
+  {
+    "nome": "Copa do Brasil",
+    "quantidade": 3
+  },
+  {
+    "nome": "Supercopa do Brasil",
+    "quantidade": 1
+  },
+  {
+    "nome": "Campeonato Brasileiro - Série B",
+    "quantidade": 1
+  },
+  {
+    "nome": "Torneio Rio-São Paulo",
+    "quantidade": 5
+  },
+  {
+    "nome": "Taça dos Campeões Rio-São Paulo",
+    "quantidade": 2
+  },
+  {
+    "nome": "Campeonato Paulista",
+    "quantidade": 30
+  },
+  {
+    "nome": "Copa Bandeirantes",
+    "quantidade": 1
+  },
+  {
+    "nome": "Total nomes Oficiais",
+    "quantidade": 55
+  }
+]
