@@ -170,7 +170,9 @@ body {
   background: rgb(0, 0, 0);
 }
 
-.copy p {
+.copy p,
+a {
+  display: inline-block;
   padding: 20px;
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
