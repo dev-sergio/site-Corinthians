@@ -4,6 +4,7 @@ import ScrollSuave from './modules/scroll-suave.js';
 import ScrollAnima from './modules/scroll-anima.js';
 import TabNav from './modules/tabnav.js';
 import fetchTitulos from './modules/fetchTitulos.js';
+import SlideNav from './modules/slide.js';
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"], a[href^="#"]');
 scrollSuave.init();
@@ -25,3 +26,6 @@ accordion.init();
 
 fetchTitulos('../../titulosMasculinoApi.json', '.numeros-mas');
 fetchTitulos('../../titulosFemininoApi.json', '.numeros-fem');
+
+const slide = new SlideNav('.slide', '.slide-wrapper');
+slide.init();
