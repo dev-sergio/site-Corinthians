@@ -24,8 +24,8 @@ tabNav.init();
 const accordion = new Accordion('[data-anime="accordion"] dt');
 accordion.init();
 
-fetchTitulos('../../titulosMasculinoApi.json', '.numeros-mas');
-fetchTitulos('../../titulosFemininoApi.json', '.numeros-fem');
+fetchTitulos('./titulosMasculinoApi.json', '.numeros-mas');
+fetchTitulos('./titulosFemininoApi.json', '.numeros-fem');
 
 const slide = new SlideNav('.slide', '.slide-wrapper');
 slide.init();
