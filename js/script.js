@@ -27,6 +27,5 @@ accordion.init();
 fetchTitulos('./titulosMasculinoApi.json', '.numeros-mas');
 fetchTitulos('./titulosFemininoApi.json', '.numeros-fem');
 
-
 const slide = new SlideNav('.slide', '.slide-wrapper');
 slide.init();
